@@ -3,8 +3,11 @@
 what is docker-dropInRegistration
 
   docker-dropInRegistration is the dockerized version of the web application: dropInRegistration
+
   the source code for the app is publically available here: https://github.com/snorrena/dropInRegistration
+
   the app is packaged in a war file and copied into a docker image running a tomcat server
+  
   the docker-compose file lists a single tomcat service that will expose the app on port 8081 on the host computer when run in docker
   
   What does the app do?
